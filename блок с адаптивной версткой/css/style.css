@@ -36,10 +36,10 @@ body {
 }
 
 .phone {
+	background: #fff url(../img/smartphone.svg) center no-repeat;
 	width: 200px;
 	height: 280px; 
 	left: 5%;
-	/*background: url('http://jquerykiller.ru/img/mobile.svg');*/
 	z-index: 3;
 	transition-delay: 0.2s;
 }
@@ -50,6 +50,7 @@ body {
 	left: 10%;
 	z-index: 1;
 	transition-delay: 0.4s;
+	background: #fff url(../img/tablet.svg) center no-repeat;
 }
 
 .desktop {
@@ -57,4 +58,5 @@ body {
 	height: 480px;
 	left: 15%;
 	transition-delay: 0.6s;
+	background: #fff url(../img/desktop.svg) center no-repeat;
 }
